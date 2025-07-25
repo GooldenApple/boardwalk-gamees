@@ -114,7 +114,7 @@ h2 {
 }
 
 #student-text {
-  white-space: nowrap;          /* ← håller texten på en rad */
+  white-space: normal;          /* ← håller texten på en rad */
   font-size: 0.95rem;           /* ← perfekt storlek för att likna originalet */
   line-height: 1.6;             /* ← lite mer vertikal luft */
   margin: 0;
@@ -140,7 +140,7 @@ h2 {
 }
 
 #contact .sub-heading-color {
-    color: var(---highlight-color-light)
+    color: var(--highlight-color-light)
 }
 
 #contact i {
@@ -150,7 +150,7 @@ h2 {
 }
 
 #contact .social-links i {
-    color: var(---highlight-color-light);
+    color: var(--highlight-color-light);
     font-size: 1.9rem;
     transition: color 0.3;
 }
@@ -212,3 +212,4 @@ h2 {
         min-height: 195px;
     }
 }
+
