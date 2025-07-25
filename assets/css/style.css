@@ -96,6 +96,24 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/*events*/
+
+#student {
+  background-color: var(--highlight-color);
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 4px 16px;             /* ← lite mer sidpadding för luftighet */
+  max-width: max-content;       /* ← gör rutan exakt så bred som innehållet */
+  margin: 0 auto;               /* ← centrerar inom kolumnen */
+}
+
+#student-text {
+  white-space: nowrap;          /* ← håller texten på en rad */
+  font-size: 0.95rem;           /* ← perfekt storlek för att likna originalet */
+  line-height: 1.6;             /* ← lite mer vertikal luft */
+  margin: 0;
+}
 
 /* game library cards */
 
@@ -139,6 +157,11 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
+
+/* events*/
+
+
+
 
 /* grid visualisation css for testing */
 /* .container,
