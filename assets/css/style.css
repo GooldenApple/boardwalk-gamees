@@ -8,7 +8,7 @@
    --primary-color: #3a2620;
    --secondary-color: #aa9581;
    --highlight-color: #416a8e;
-   ---highlight-color-light: #7a9fc2;
+   --highlight-color-light: #7a9fc2;
 
 }
 
@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 80px; /* pushes the top of the navbar down under fixed navbar */
+    padding-top: 57.15px; /* pushes the top of the navbar down under fixed navbar */
 }
 
 h1,
@@ -41,7 +41,7 @@ h2 {
 
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
-    margin-bottom: 4rem; /* skapar luft nedåt mot footer */
+    
 }
 
 /* buttons */
